@@ -1,61 +1,70 @@
-# 👋 안녕하세요, 김정규입니다
+# IT를 만들며 성장 중인 백엔드 개발자, 김정규입니다
 
-Java와 Spring 기반의 백엔드 개발자로, 사용자 경험을 개선하고 시스템 안정성을 높이는 데 관심이 많습니다.  
-개인 프로젝트부터 협업 기반 개발까지 경험하며, 문제를 찾고 개선하는 데 집중해 왔습니다.
-
----
-
-## 🛠️ 사용 경험 있는 기술 스택
-
-### 🔹 Backend
-- Java 17, Spring Boot
-- JPA, Spring Security, Spring Batch
-- QueryDSL, MyBatis (기초 수준)
-
-### 🔹 Database / Cache
-- MySQL, Redis
-- Redis 기반 세션/캐시/락 처리 경험
-
-### 🔹 인프라 & 배포
-- AWS EC2 / S3
-- GitHub Actions 기반 CI/CD
-- Docker (개발/배포 환경 구성)
-- 간단한 Nginx 리버스 프록시 구성
-
-### 🔹 실시간 처리
-- WebSocket 기반 실시간 채팅 및 알림
-- 하트비트 + 자동 재연결 구조 적용
-
-### 🔹 인증/보안
-- JWT 인증 구조
-- Redis 블랙리스트로 만료/로그아웃 처리
-- OAuth 연동 (네이버), 이메일 인증
+실시간 커뮤니티 플랫폼을 혼자 만들고 운영하며, 기술만이 아닌 사용자와 시스템 전반을 바라보는 시야를 키우고 있습니다.  
+서비스가 실제로 '돌아간다'는 것, 그리고 그 과정에서 발생하는 수많은 이슈들을 직접 겪고 해결하며 성장해왔습니다.
 
 ---
 
-## 🧪 주요 경험
+## 🎯 개발자로서 중요하게 생각하는 것
 
-### 🔸 별 헤는 밤 (개인 프로젝트)
-https://byeolnight.com  
-- 실시간 커뮤니티 플랫폼 (채팅, 알림, 게시판)
-- Redis 기반 동시성 제어 및 인증 처리
-- GitHub Actions + Docker를 이용한 CI/CD 구축
-- 이미지 필터링 실패 시 자동 정리 및 orphan 파일 처리
+① 재현 가능한 문제를 만들고, 근거 있는 개선을 하기  
+② 예외를 고려하는 것에서 나아가 '무너져도 안전한 시스템' 만들기  
+③ 코드는 버려질 수 있지만, 구조는 남는다
 
-### 🔸 Outven (팀 프로젝트, 팀장)
-https://github.com/Iusto/outven  
-- ERD 설계 및 인증 API 명세 주도
-- 비전공자 팀원 중심 협업 구조 정착
-- N+1 문제 해결 (Fetch Join + Pageable)
+단순히 코드를 짜는 것을 넘어서, **"서비스가 오랫동안 안정적으로 동작할 수 있는 구조"**를 고민하고 구현해 나가고 있습니다.
 
 ---
 
-## 📫 연락처
+## 🧪 주요 프로젝트 경험
+
+### ⭐ 별 헤는 밤 (2025~ 운영 중)
+- 실시간 채팅/게시판 커뮤니티 플랫폼
+- WebSocket 기반 알림, 채팅, Redis 기반 동시성 제어
+- JWT 인증 구조 + Redis 블랙리스트
+- GitHub Actions + Docker 기반 무중단 배포
+- 운영비 최적화 (EC2 자동 종료, 점검 페이지 자동 전환)
+
+[🔗 사이트 바로가기](https://byeolnight.com) | [🔗 GitHub Repo](https://github.com/Iusto/byeolnight)
+
+---
+
+### 🧭 Outven (2024)
+- 팀 프로젝트 / 팀장
+- API 명세 주도, 인증 로직 설계, 코드 통합 및 리팩토링
+- Redis 로그인 세션, 전역 에러 포맷 구조 도입
+- 성능 병목(N+1) 해결 → Fetch Join + Pageable
+
+[🔗 GitHub Repo](https://github.com/Iusto/outven)
+
+---
+
+## ⚙️ 기술 스택 (Used in 실제 프로젝트 중심)
+
+| 분야 | 기술 |
+|------|------|
+| Backend | Java 17, Spring Boot, JPA, Spring Security |
+| Infra | AWS EC2/S3, GitHub Actions, Docker, Nginx |
+| DB / Cache | MySQL, Redis |
+| Real-time | WebSocket, Redis Pub/Sub, 하트비트 처리 |
+| 인증/보안 | JWT, Redis 블랙리스트, OAuth (네이버), 이메일 인증 |
+| 협업 | Notion, Discord, Git |
+
+---
+
+## 💡 최근 관심 있는 주제
+
+- 장애를 줄이는 백엔드 아키텍처  
+- 실시간 데이터 처리와 동시성 이슈  
+- 비용 효율적인 인프라 운영 구조  
+- 사용자가 체감할 수 있는 ‘빠른 응답’에 대한 고민
+
+---
+
+## 📫 Contact
 
 - 📧 Email: iusto@naver.com  
 - 🧑‍💻 GitHub: [github.com/Iusto](https://github.com/Iusto)  
-- 📝 Blog: [velog.io/@jade_95](https://velog.io/@jade_95/posts)  
-- 🌐 Portfolio: [byeolnight.com](https://byeolnight.com)
+- 📒 Blog: [velog.io/@jade_95](https://velog.io/@jade_95/posts)
 
 ---
 
