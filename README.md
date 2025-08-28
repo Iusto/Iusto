@@ -21,7 +21,7 @@
 - 실시간 채팅/게시판 커뮤니티 플랫폼
 - WebSocket 기반 알림, 채팅, Redis 기반 동시성 제어
 - JWT 인증 구조 + Redis 블랙리스트
-- GitHub Actions + Docker 기반 무중단 배포
+- CI/CD 자동화 (GitHub Actions 기반 자동 테스트, 빌드, 배포)
 - 운영비 최적화 (EC2 자동 종료, 점검 페이지 자동 전환)
 
 [🔗 사이트 바로가기](https://byeolnight.com) | [🔗 GitHub Repo](https://github.com/Iusto/byeolnight)
