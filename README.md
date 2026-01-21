@@ -65,4 +65,4 @@
 
 ![Iusto's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Iusto&show_icons=true&theme=tokyonight&count_private=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Iusto&layout=compact&theme=tokyonight)
-[![Git Ranker](/api/v1/badges/MDQ6VXNlcjg1MjI3MDQy)](https://www.git-ranker.com)
+[![Git Ranker](https://www.git-ranker.com/api/v1/badges/MDQ6VXNlcjg1MjI3MDQy)](https://www.git-ranker.com)
